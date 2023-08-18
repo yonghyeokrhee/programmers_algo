@@ -1,6 +1,6 @@
 def solution(targets):
     # line sweeping 문제로 풀자.
-    target = sorted(targets, key = lambda  x: (x[0], x[1]))
+    target = sorted(targets, key = lambda  x: (x[1]))
 
     line = 0
     cnt = 0
